@@ -23,6 +23,6 @@ jobs:
         with:
           inlineScript: |
             az storage blob upload-batch \
-              --account-name mksazurestorage \
+              --account-name azurewebsitemks \
               --destination '$web' \
               --source .
